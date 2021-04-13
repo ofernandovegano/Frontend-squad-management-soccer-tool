@@ -1,4 +1,7 @@
-.app {
-  margin-top: 20px;
-  margin-bottom: 20px;
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&display=swap');
+@import 'colors';
+@import 'navbar';
+
+body {
+  font-family: 'Nunito', sans-serif;
 }

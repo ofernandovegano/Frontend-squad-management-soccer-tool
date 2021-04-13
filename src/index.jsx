@@ -1,3 +1,4 @@
+// external modules
 import React from 'react';
 import ReactDOM from 'react-dom';
 import { Provider } from 'react-redux';
@@ -5,9 +6,12 @@ import { createStore, combineReducers, applyMiddleware } from 'redux';
 import reduxPromise from 'redux-promise';
 import logger from 'redux-logger';
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
-import { createHistory as history } from 'history';
+import { createBrowserHistory as history } from 'history';
 
 import '../assets/stylesheets/application.scss';
+
+import Index from './containers/index';
+
 
 const reducers = combineReducers({
   // key: reducer
@@ -19,9 +23,11 @@ const middlewares = applyMiddleware(reduxPromise, logger);
 ReactDOM.render(
   <Provider store={createStore(reducers, {}, middlewares)}>
     <Router history={history}>
-      <Switch>
-        TODO
-      </Switch>
+      <div className="view-container">
+        <Switch>
+          <Route path="/" exact component={Index} />
+        </Switch>
+      </div>
     </Router>
   </Provider>,
   document.getElementById('root')
