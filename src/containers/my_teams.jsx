@@ -4,8 +4,7 @@ import { connect } from 'react-redux';
 import { Link } from 'react-router-dom';
 
 // import { } from '../actions';
-
-import Navbar from '../components/navbar';
+import Table from './table';
 
 class MyTeams extends Component {
   componentWillMount() {
@@ -14,7 +13,12 @@ class MyTeams extends Component {
   render() {
     return (
       <div className="">
-
+        <div className="my-teams-header">
+          <h2>My Teams</h2>
+          <div className="add-team"><div>+</div></div>
+        </div>
+        <hr />
+        <Table />
       </div>
     );
   };

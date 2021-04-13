@@ -20,9 +20,8 @@ class App extends Component {
         <div className="row">
           <div className="col-6 first-column">
             <div className="my-teams rounded-corners">
-
+              <MyTeams />
             </div>
-
           </div>
           <div className="col-6 second-column">
             <div className="top-5 rounded-corners">
