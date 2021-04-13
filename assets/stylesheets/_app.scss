@@ -1,0 +1,24 @@
+.row {
+  margin: 0;
+}
+.col-6 {
+  padding: 0;
+}
+.main {
+  min-height: 89vh;
+  width: 95%;
+  margin: 0 auto;
+}
+.first-column {
+}
+.second-column {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-end;
+  width: 95%;
+}
+.rounded-corners {
+  border-radius: 10px;
+}
+

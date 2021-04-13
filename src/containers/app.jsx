@@ -15,14 +15,25 @@ class App extends Component {
 
   render() {
     return (
-      <div className="">
-        < Navbar />
+      <div className="app-container">
+        <Navbar />
         <div className="row">
-          <div className="col-6">
-            < MyTeams />
+          <div className="col-6 first-column">
+            <div className="my-teams rounded-corners">
+
+            </div>
+
+          </div>
+          <div className="col-6 second-column">
+            <div className="top-5 rounded-corners">
+
+            </div>
+            <div className="most-less-picker rounded-corners">
+
+            </div>
           </div>
         </div>
-        < Footer />
+        <Footer />
       </div>
     );
   };

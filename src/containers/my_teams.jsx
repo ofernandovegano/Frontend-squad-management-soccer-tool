@@ -13,7 +13,7 @@ class MyTeams extends Component {
 
   render() {
     return (
-      <div className="my-teams col-6">
+      <div className="">
 
       </div>
     );
