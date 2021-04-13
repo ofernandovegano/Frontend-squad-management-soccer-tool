@@ -4,17 +4,21 @@ import { connect } from 'react-redux';
 import { Link } from 'react-router-dom';
 
 // import { } from '../actions';
+import Table from './table';
 
-import Navbar from '../components/navbar';
-
-class Index extends Component {
+class MyTeams extends Component {
   componentWillMount() {
   }
 
   render() {
     return (
       <div className="">
-        <Navbar/>
+        <div className="my-teams-header">
+          <h2>My Teams</h2>
+          <div className="add-team"><div>+</div></div>
+        </div>
+        <hr />
+        <Table />
       </div>
     );
   };
@@ -30,4 +34,4 @@ function mapDispatchToProps(dispatch) {
   return bindActionCreators({ }, dispatch);
 }
 
-export default connect(mapStateToProps, mapDispatchToProps)(Index);
+export default connect(mapStateToProps, mapDispatchToProps)(MyTeams);

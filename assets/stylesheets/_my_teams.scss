@@ -1,0 +1,45 @@
+.my-teams {
+  background-color: $venturus-white;
+  height: 85vh;
+  margin-top: 6vh;
+  width: 90%;
+  margin-right: 5%;
+  margin-left: 5%;
+}
+.my-teams-header {
+  height: 12vh;
+  display: flex;
+  justify-content: space-between;
+  padding: 1vh;
+  align-items: center;
+}
+.add-team {
+  font-size: 2rem;
+  background: linear-gradient(to bottom, $venturus-md-pink-purple, $venturus-dark-purple 80%);
+  height: 5vh;
+  width: 5vh;
+  border-radius: 5px;
+  color: $venturus-white;
+  display: flex;
+  margin: 3vh;
+  box-shadow: 0 0 10px $venturus-md-pink-purple;
+}
+.add-team div {
+  height: 5vh;
+  width: 5vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.my-teams-table {
+  width: 100%;
+  padding: 4vh;
+  margin-top: 1vh;
+  th {
+    padding: 2vh;
+  }
+  td {
+    padding: 2vh;
+  }
+}
+
