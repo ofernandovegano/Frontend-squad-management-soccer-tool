@@ -10,7 +10,7 @@ import { createBrowserHistory as history } from 'history';
 
 import '../assets/stylesheets/application.scss';
 
-import Index from './containers/index';
+import App from './containers/app';
 
 
 const reducers = combineReducers({
@@ -25,7 +25,7 @@ ReactDOM.render(
     <Router history={history}>
       <div className="view-container">
         <Switch>
-          <Route path="/" exact component={Index} />
+          <Route path="/" exact component={App} />
         </Switch>
       </div>
     </Router>

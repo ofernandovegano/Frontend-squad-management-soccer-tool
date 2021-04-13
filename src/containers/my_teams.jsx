@@ -7,14 +7,14 @@ import { Link } from 'react-router-dom';
 
 import Navbar from '../components/navbar';
 
-class Index extends Component {
+class MyTeams extends Component {
   componentWillMount() {
   }
 
   render() {
     return (
-      <div className="">
-        <Navbar/>
+      <div className="my-teams col-6">
+
       </div>
     );
   };
@@ -30,4 +30,4 @@ function mapDispatchToProps(dispatch) {
   return bindActionCreators({ }, dispatch);
 }
 
-export default connect(mapStateToProps, mapDispatchToProps)(Index);
+export default connect(mapStateToProps, mapDispatchToProps)(MyTeams);

@@ -1,7 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&display=swap');
 @import 'colors';
 @import 'navbar';
+@import 'my_teams';
+@import 'footer';
 
 body {
   font-family: 'Nunito', sans-serif;
+  background-color: $venturus-light-gray;
 }
