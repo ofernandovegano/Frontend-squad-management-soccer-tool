@@ -18,7 +18,7 @@ class MyTeams extends Component {
           <div className="add-team"><div>+</div></div>
         </div>
         <hr />
-        <Table />
+        <Table key='my-teams-table' id='my-teams-table' />
       </div>
     );
   };

@@ -23,6 +23,9 @@
   display: flex;
   margin: 3vh;
   box-shadow: 0 0 10px $venturus-md-pink-purple;
+  &:hover {
+  box-shadow: 0 0 8px 2px $venturus-md-pink-purple;
+  }
 }
 .add-team div {
   height: 5vh;
@@ -30,16 +33,47 @@
   display: flex;
   align-items: center;
   justify-content: center;
+   
 }
 .my-teams-table {
   width: 100%;
   padding: 4vh;
   margin-top: 1vh;
-  th {
-    padding: 2vh;
+  border: 1vh solid $venturus-white;
+  border-radius: 5px;
+  .th {
+    padding: 3vh 2vh;
+    border-bottom: 1px solid $venturus-light-gray;
+    font-weight: bold;
   }
-  td {
+  .td {
     padding: 2vh;
+    font-weight: bold;
   }
 }
+.row-table {
+  border-bottom: 1px solid rgba(0,0,0,.1);
+
+  &:hover {
+    color: $venturus-md-pink-purple;
+    background-color: $venturus-light-purple;
+    border-radius: 5px;
+  }
+}
+.icon {
+  font-size: 0.8rem;
+  padding: 0.8vh;
+}
+.icons {
+  display: none;
+}
+.row-table:hover .icons{
+  display: block;
+}
+.team-info {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
 

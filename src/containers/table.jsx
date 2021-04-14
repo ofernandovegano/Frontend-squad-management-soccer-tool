@@ -11,34 +11,37 @@ class Table extends Component {
   render() {
     return (
       <table className='my-teams-table' id='my-teams'>
-      <thead>
-        <tr>
-          <div className="row">
+      <div className='thead'>
+        <div className='tr'>
+          <div className="row row-table">
             <div className="col-3">
-              <th>Name</th>
+              <div className='th'>Name</div>
             </div>
             <div className="col-9">
-              <th>Description</th>
+              <div className='th'>Description</div>
             </div>
           </div>
-        </tr>
-      </thead>
-      <tbody>
+          </div>
+      </div>
+      <div className='tbody'>
         { this.props.rows.map((row) => {
           return (
-            <tr>
-              <div className="row">
-                <div className="col-3">
-                  <td>{row[0]}</td>
-                </div>
-                <div className="col-9">
-                  <td>{row[1]}</td>
+            <div className="row row-table">
+              <div className="col-3">
+                <div className='td'>{row[0]}</div>
+              </div>
+              <div className="col-9 team-info">
+                <div className='td'>{row[1]}</div>
+                <div className="icons">
+                  <span aria-label="Delete" data-balloon-pos="up"><i className="fas fa-trash icon"></i></span>
+                  <span aria-label="Share" data-balloon-pos="up"><i className="fas fa-share-alt icon"></i></span>
+                  <span aria-label="Edit" data-balloon-pos="up"><i className="fas fa-pen icon"></i></span>
                 </div>
               </div>
-            </tr>
+            </div>
           )
         })}
-      </tbody>
+      </div>
     </table>
     )
   }
