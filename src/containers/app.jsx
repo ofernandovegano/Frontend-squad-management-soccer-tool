@@ -9,6 +9,7 @@ import Navbar from '../components/navbar';
 import Footer from '../components/footer';
 import MyTeams from './my_teams';
 import TopFive from './top_five';
+import MostLessPicked from './most_less_picked'
 
 class App extends Component {
   componentWillMount() {
@@ -28,8 +29,8 @@ class App extends Component {
             <div className="top-five rounded-corners">
               <TopFive />
             </div>
-            <div className="most-less-picker rounded-corners-up">
-
+            <div className="most-less-picked rounded-corners-up">
+              <MostLessPicked />
             </div>
           </div>
         </div>
