@@ -4,18 +4,22 @@
 @import 'app';
 @import 'my_teams';
 @import 'footer';
-@import 'top-5';
+@import 'top_five';
 @import 'most-less-picker';
 
 body {
   font-family: 'Nunito', sans-serif;
   background-color: $venturus-light-gray;
+  color: $venturus-dark-gray;
 }
 h2 {
   color: $venturus-headers;
   font-weight: bold;
   font-size: 1.5rem;
   padding: 3vh;
+  margin: 0;
+}
+h3 {
   margin: 0;
 }
 hr {

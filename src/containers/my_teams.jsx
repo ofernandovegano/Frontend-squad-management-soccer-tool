@@ -1,19 +1,16 @@
 import React, { Component } from 'react';
 import { bindActionCreators } from 'redux';
 import { connect } from 'react-redux';
-import { Link } from 'react-router-dom';
 
 // import { } from '../actions';
 import Table from './table';
 
 class MyTeams extends Component {
-  componentWillMount() {
-  }
 
   render() {
     return (
       <div className="">
-        <div className="my-teams-header">
+        <div className="my-teams-top5-header">
           <h2>My Teams</h2>
           <div className="add-team"><div>+</div></div>
         </div>

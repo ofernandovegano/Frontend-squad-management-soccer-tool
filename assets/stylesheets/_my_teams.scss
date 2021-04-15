@@ -5,8 +5,9 @@
   width: 90%;
   margin-right: 5%;
   margin-left: 5%;
+  color: $venturus-dark-gray;
 }
-.my-teams-header {
+.my-teams-top5-header {
   height: 12vh;
   display: flex;
   justify-content: space-between;
@@ -34,11 +35,6 @@
   }
 }
 
-
-
-
-
-
 .add-team div {
   height: 5vh;
   width: 5vh;
@@ -49,7 +45,6 @@
 }
 .my-teams-table {
   width: 100%;
-  padding: 4vh;
   margin-top: 1vh;
   border: 1vh solid $venturus-white;
   border-radius: 5px;
@@ -62,6 +57,9 @@
     padding: 2vh;
     font-weight: bold;
   }
+}
+.row-table-header {
+  border-bottom: 1px solid rgba(0,0,0,.1);
 }
 .row-table {
   border-bottom: 1px solid rgba(0,0,0,.1);
