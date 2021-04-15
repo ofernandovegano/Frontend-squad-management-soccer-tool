@@ -3,13 +3,13 @@ import { bindActionCreators } from 'redux';
 import { connect } from 'react-redux';
 import { Link } from 'react-router-dom';
 
-class HighestTopFive extends Component {
+class LowestTopFive extends Component {
 
 
   render() {
     return (
       <div className='container-top'>
-        {this.props.highestTopFive.reverse().slice(0, 5).map(top => {
+        {this.props.lowestTopFive.map(top => {
           return (
             <div className='top' key={top[0]}>
               <div>{top[0]}</div>
@@ -25,7 +25,7 @@ class HighestTopFive extends Component {
 
 function mapStateToProps(state) {
   return {
-    highestTopFive: state.avgAgeTeams.sort((a, b) => a[1] - b[1])
+    lowestTopFive: state.avgAgeTeams.sort((a, b) => a[1] - b[1]).slice(0, 5)
   };
 }
 
@@ -33,4 +33,4 @@ function mapDispatchToProps(dispatch) {
   return bindActionCreators({ }, dispatch);
 }
 
-export default connect(mapStateToProps, mapDispatchToProps)(HighestTopFive);
+export default connect(mapStateToProps, mapDispatchToProps)(LowestTopFive);

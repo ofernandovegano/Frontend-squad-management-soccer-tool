@@ -4,6 +4,7 @@ import { connect } from 'react-redux';
 
 // import { } from '../actions';
 import HighestTopFive from './highest_top_five';
+import LowestTopFive from './lowest_top_five';
 
 
 class TopFive extends Component {
@@ -24,7 +25,9 @@ class TopFive extends Component {
         </div>
         <div className="lowest avg-age col-6">
           <h3>Lowest avg Age</h3>
-          <div className='avg-age-data'></div>
+            <div className='avg-age-data'>
+              <LowestTopFive />
+          </div>
         </div>   
       </div>
     </div>
