@@ -20,12 +20,12 @@ class App extends Component {
       <div className="app-container">
         <Navbar />
         <div className="row">
-          <div className="col-6 first-column">
-            <div className="my-teams rounded-corners-up">
+          <div className="col-12 col-md-6 first-column">
+            <div className="my-teams rounded-corners-up-change">
               <MyTeams />
             </div>
           </div>
-          <div className="col-6 second-column">
+          <div className="col-12 col-md-6 second-column">
             <div className="top-five rounded-corners">
               <TopFive />
             </div>
