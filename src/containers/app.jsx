@@ -8,7 +8,7 @@ import { Link } from 'react-router-dom';
 import Navbar from '../components/navbar';
 import Footer from '../components/footer';
 import MyTeams from './my_teams';
-import MyTeams from './top_five';
+import TopFive from './top_five';
 
 class App extends Component {
   componentWillMount() {
@@ -20,7 +20,7 @@ class App extends Component {
         <Navbar />
         <div className="row">
           <div className="col-6 first-column">
-            <div className="my-teams rounded-corners">
+            <div className="my-teams rounded-corners-up">
               <MyTeams />
             </div>
           </div>
@@ -28,7 +28,7 @@ class App extends Component {
             <div className="top-five rounded-corners">
               <TopFive />
             </div>
-            <div className="most-less-picker rounded-corners">
+            <div className="most-less-picker rounded-corners-up">
 
             </div>
           </div>

@@ -10,10 +10,10 @@ class Table extends Component {
 
   render() {
     return (
-      <table className='my-teams-table' id='my-teams'>
+      <div className='my-teams-table'>
       <div className='thead'>
         <div className='tr'>
-          <div className="row row-table">
+          <div className="row row-table-header">
             <div className="col-3">
               <div className='th'>Name</div>
             </div>
@@ -24,9 +24,9 @@ class Table extends Component {
           </div>
       </div>
       <div className='tbody'>
-        { this.props.rows.map((row) => {
+        { this.props.myTeams.map((row) => {
           return (
-            <div className="row row-table">
+            <div className="row row-table" key={row[0]}>
               <div className="col-3">
                 <div className='td'>{row[0]}</div>
               </div>
@@ -42,14 +42,14 @@ class Table extends Component {
           )
         })}
       </div>
-    </table>
+    </div>
     )
   }
 };
 
 function mapStateToProps(state) {
   return {
-    rows: state.rows
+    myTeams: state.myTeams
   };
 }
 

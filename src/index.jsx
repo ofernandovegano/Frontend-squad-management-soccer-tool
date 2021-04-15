@@ -13,12 +13,22 @@ import '../assets/stylesheets/application.scss';
 import App from './containers/app';
 
 const initialState = {
-  rows: [['Barcelona', 'Barcelona Squad'],
-         ['Real Madrid', 'Real Madrid Squad'],
-         ['Milan', 'Milan Squad'],
-         ['Liverpool', 'Liverpool Squad'],
-         ['Bayer Munich', 'Bayer Munich Squad'],
-         ['Lazio', 'Lazio Squad']]
+  myTeams: [['Barcelona', 'Barcelona Squad'],
+            ['Real Madrid', 'Real Madrid Squad'],
+            ['Milan', 'Milan Squad'],
+            ['Liverpool', 'Liverpool Squad'],
+            ['Bayer Munich', 'Bayer Munich Squad'],
+            ['Lazio', 'Lazio Squad']],
+  topFiveAge: [['Inter Milan', 31.9],
+               ['APOEL Nicosia', '31.7'],
+               ['AC Milan', '31.6'],
+               ['Besiktas JK', '31.4'],
+               ['Olympiacos Piraeus', '31.3'],
+               ['Zalgiris Vilnius', '21.1'],
+               ['Arsenal FC', '21.6'],
+               ['Ajax Amsterdam', '22'],
+               ['FC Nantes', '22.1'],
+               ['CSKA Moscow', '22.5']]
 };
 
 const reducers = combineReducers({

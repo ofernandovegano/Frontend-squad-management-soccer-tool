@@ -3,6 +3,7 @@ import { bindActionCreators } from 'redux';
 import { connect } from 'react-redux';
 
 // import { } from '../actions';
+import HighestTopFive from './highest_top_five';
 
 
 class TopFive extends Component {
@@ -13,7 +14,19 @@ class TopFive extends Component {
       <div className="my-teams-top5-header">
         <h2>Top 5</h2>
       </div>
-      <hr />
+        <hr />
+      <div className="row top-five-sub-headers">
+        <div className="highest avg-age col-6">
+          <h3>Highest avg Age</h3>
+            <div className='avg-age-data'>
+              <HighestTopFive />  
+            </div>
+        </div>
+        <div className="lowest avg-age col-6">
+          <h3>Lowest avg Age</h3>
+          <div className='avg-age-data'></div>
+        </div>   
+      </div>
     </div>
     );
   };
