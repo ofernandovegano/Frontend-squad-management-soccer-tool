@@ -15,7 +15,7 @@ class CreateYourTeam extends Component {
     return (
       <div>
         <Navbar />
-        <div className="main rounded-corners create-new-team-container">
+        <div className="main rounded-corners create-your-team-container">
 
         </div>
         <Footer />
