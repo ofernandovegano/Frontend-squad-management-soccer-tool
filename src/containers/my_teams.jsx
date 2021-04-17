@@ -11,13 +11,12 @@ class MyTeams extends Component {
   render() {
     return (
       <div className="">
-        <div className="my-teams-top5-header">
+        <div className="h2-headers">
           <h2>My Teams</h2>
           <Link to='/new'>
             <div className="add-team"><div>+</div></div>
           </Link>
         </div>
-        <hr />
         <Table key='my-teams-table' id='my-teams-table' />
       </div>
     );

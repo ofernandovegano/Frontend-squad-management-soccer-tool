@@ -12,10 +12,9 @@ class TopFive extends Component {
   render() {
     return (
     <div className="">
-      <div className="my-teams-top5-header">
+      <div className="h2-headers">
         <h2>Top 5</h2>
       </div>
-        <hr />
       <div className="row top-five-sub-headers">
         <div className="highest avg-age col-6">
           <h3>Highest avg Age</h3>
