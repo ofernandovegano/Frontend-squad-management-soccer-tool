@@ -2,9 +2,7 @@
   background-color: $venturus-white;
   height: 85vh;
   margin-top: 6vh;
-  width: 90%;
-  margin-right: 5%;
-  margin-left: 5%;
+  width: 97.5%;
   color: $venturus-dark-gray;
 }
 .my-teams-top5-header {
@@ -50,7 +48,6 @@
   border-radius: 5px;
   .th {
     padding: 3vh 2vh;
-    border-bottom: 1px solid $venturus-light-gray;
     font-weight: bold;
   }
   .td {
@@ -60,9 +57,11 @@
 }
 .row-table-header {
   border-bottom: 1px solid rgba(0,0,0,.1);
+  margin: 0 auto;
 }
 .row-table {
   border-bottom: 1px solid rgba(0,0,0,.1);
+  margin: 0 auto;
 
   &:hover {
     color: $venturus-md-pink-purple;
@@ -89,5 +88,3 @@
   justify-content: space-between;
   align-items: center;
 }
-
-
