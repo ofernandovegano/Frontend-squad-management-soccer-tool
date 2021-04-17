@@ -1,32 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&display=swap');
 @import 'colors';
 @import 'navbar';
+@import 'shared';
 @import 'app';
 @import 'my_teams';
 @import 'footer';
 @import 'top_five';
 @import 'most_less_picked';
 @import 'create_your_team';
-@import 'shared';
-
-body {
-  font-family: 'Nunito', sans-serif;
-  background-color: $venturus-light-gray;
-  color: $venturus-dark-gray;
-}
-h2 {
-  color: $venturus-headers;
-  font-weight: bold;
-  font-size: 1.5rem;
-  padding: 3vh;
-  margin: 0;
-}
-h3 {
-  margin: 0;
-}
-hr {
-  margin: 0;
-}
-.row {
-  padding: 0;
-}

@@ -19,7 +19,7 @@ class App extends Component {
     return (
       <div className="app-container">
         <Navbar />
-        <div className="row">
+        <div className="row inside-margin main">
           <div className="col-12 col-md-6 first-column">
             <div className="my-teams rounded-corners-up-change">
               <MyTeams />
