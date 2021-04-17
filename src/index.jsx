@@ -11,6 +11,7 @@ import { createBrowserHistory as history } from 'history';
 import '../assets/stylesheets/application.scss';
 
 import App from './containers/app';
+import CreateYourTeam from './containers/create_your_team';
 
 const initialState = {
   myTeams: [['Barcelona', 'Barcelona Squad'],
@@ -44,6 +45,7 @@ ReactDOM.render(
       <div className="view-container">
         <Switch>
           <Route path="/" exact component={App} />
+          <Route path="/new" exact component={CreateYourTeam} />
         </Switch>
       </div>
     </Router>

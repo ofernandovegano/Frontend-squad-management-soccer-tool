@@ -4,21 +4,21 @@ import { connect } from 'react-redux';
 import { Link } from 'react-router-dom';
 
 // import { } from '../actions';
-import Table from './table';
 
-class MyTeams extends Component {
+import Navbar from '../components/navbar';
+import Footer from '../components/footer';
+
+
+class CreateYourTeam extends Component {
 
   render() {
     return (
-      <div className="">
-        <div className="my-teams-top5-header">
-          <h2>My Teams</h2>
-          <Link to='/new'>
-            <div className="add-team"><div>+</div></div>
-          </Link>
+      <div>
+        <Navbar />
+        <div className="main rounded-corners create-your-team-container">
+
         </div>
-        <hr />
-        <Table key='my-teams-table' id='my-teams-table' />
+        <Footer />
       </div>
     );
   };
@@ -34,4 +34,4 @@ function mapDispatchToProps(dispatch) {
   return bindActionCreators({ }, dispatch);
 }
 
-export default connect(mapStateToProps, mapDispatchToProps)(MyTeams);
+export default connect(mapStateToProps, mapDispatchToProps)(CreateYourTeam);
