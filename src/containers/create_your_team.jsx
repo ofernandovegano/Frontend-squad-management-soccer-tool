@@ -21,7 +21,7 @@ class CreateYourTeam extends Component {
             <h2>Create your team</h2>
           </div>
           <h3 className='sub-header'>TEAM INFORMATION</h3>
-          {/* <CreateTeamForm /> */}
+          <CreateTeamForm />
         </div>
         <Footer />
       </div>
