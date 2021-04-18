@@ -59,11 +59,33 @@ class CreateTeamForm extends Component {
               <label htmlFor="tags">Tags</label>
               <input name="tags" type="text"className="form-control form-tags" />
             </div>
-              
-          </div>       
+            </div>
         </div>
-          
-        <button type="submit">Add Team</button>
+          <h3 className='sub-header-before-tatics'>CONFIGURE SQUAD</h3>
+          <div className="row">
+            <div className="col-6">
+              {/* <span className='formation-header'>Formation</span> */}
+              <label for="formation" className='formation-header'>Formation</label>
+              <select id="formation" name="formation">
+                <option value="3-2-2-3">3-2-2-3</option>
+                <option value="3-2-2-1">3-2-2-1</option>
+                <option value="3-4-3">3-4-3</option>
+                <option value="3-5-2">3-5-2</option>
+                <option value="4-2-3-1">4-2-3-1</option>
+                <option value="4-3-1-1">4-3-1-1</option>
+                <option value="4-3-2">4-3-2</option>
+                <option value="4-4-2">4-4-2</option>
+                <option value="4-5-1">4-5-1</option>
+                <option value="5-4-1">5-4-1</option>
+              </select>
+              <div className='formationField'><div className='middle-camp-line'><div></div></div><div className="circle-form"></div></div>
+            </div>
+            <div className="col-6"></div>
+          </div>
+          <div className="row">
+            
+        <button type="submit" className='saveButton'>Save</button>
+        </div>
       </form>
     </div>
     );
