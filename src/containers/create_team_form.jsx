@@ -80,7 +80,13 @@ class CreateTeamForm extends Component {
               </select>
               <div className='formationField'><div className='middle-camp-line'><div></div></div><div className="circle-form"></div></div>
             </div>
-            <div className="col-6"></div>
+            <div className="col-6 search-players">
+              <div className="form-group form-right">
+              <p className='search-players-header'>Search Players</p>
+              <input type="text" placeholder='Ronaldo' className="form-control"/>
+
+              </div>
+            </div>
           </div>
           <div className="row">
             
