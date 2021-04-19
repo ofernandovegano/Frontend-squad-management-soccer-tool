@@ -83,17 +83,48 @@ class CreateTeamForm extends Component {
               </select>
               <div className='formationField'>
                 <div className="positions"></div>
+
                 <div className="positions"></div>
+
                 <div className="positions"></div>
-                <div className="positions"></div>
+
+                <div className="positions">
+
+                <div className="after-positions">
+                    <div className='plus-player'><div className='plus'>+</div></div>
+                    <div className="player-border">
+                      <div className="player"></div>
+                    </div>
+                </div>
+                <div className="after-positions">
+                    <div className='plus-player'><div className='plus'>+</div></div>
+                    <div className="player-border">
+                      <div className="player"></div>
+                    </div>
+                </div>
+                <div className="after-positions">
+                    <div className='plus-player'><div className='plus'>+</div></div>
+                    <div className="player-border">
+                      <div className="player"></div>
+                    </div>
+                </div>
+                <div className="after-positions">
+                    <div className='plus-player'><div className='plus'>+</div></div>
+                    <div className="player-border">
+                      <div className="player"></div>
+                    </div>
+                </div>
+
+                </div>
+
+                
+
                 <div className="positions">
                   <div className="after-positions">
-            
-                      <div className='plus-player'><div className='plus'>+</div></div>
-      
-                  <div className="player-border">
-                    <div className="player"></div>
-                  </div>
+                    <div className='plus-player'><div className='plus'>+</div></div>
+                    <div className="player-border">
+                      <div className="player"></div>
+                    </div>
                   </div>
                 </div>
                 {/* <div className='middle-camp-line'><div>
@@ -104,7 +135,7 @@ class CreateTeamForm extends Component {
             <div className="col-6 search-players">
 
               <SearchPlayers />
-
+              
             </div>
           </div>
           <div className="row">
