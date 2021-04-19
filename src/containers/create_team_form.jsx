@@ -81,7 +81,25 @@ class CreateTeamForm extends Component {
                 <option value="4-5-1">4-5-1</option>
                 <option value="5-4-1">5-4-1</option>
               </select>
-              <div className='formationField'><div className='middle-camp-line'><div></div></div><div className="circle-form"></div></div>
+              <div className='formationField'>
+                <div className="positions"></div>
+                <div className="positions"></div>
+                <div className="positions"></div>
+                <div className="positions"></div>
+                <div className="positions">
+                  <div className="after-positions">
+            
+                      <div className='plus-player'><div className='plus'>+</div></div>
+      
+                  <div className="player-border">
+                    <div className="player"></div>
+                  </div>
+                  </div>
+                </div>
+                {/* <div className='middle-camp-line'><div>
+                  </div></div>
+                <div className="circle-form"></div> */}
+              </div>
             </div>
             <div className="col-6 search-players">
 
