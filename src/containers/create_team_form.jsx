@@ -6,6 +6,9 @@ import { connect } from 'react-redux';
 
 import { addTeam } from '../actions';
 
+import SearchPlayers from './search_players';
+
+
 class CreateTeamForm extends Component {
   // handleSubmit = (event) => {
   //   event.preventDefault();
@@ -81,11 +84,9 @@ class CreateTeamForm extends Component {
               <div className='formationField'><div className='middle-camp-line'><div></div></div><div className="circle-form"></div></div>
             </div>
             <div className="col-6 search-players">
-              <div className="form-group form-right">
-              <p className='search-players-header'>Search Players</p>
-              <input type="text" placeholder='Ronaldo' className="form-control"/>
 
-              </div>
+              <SearchPlayers />
+
             </div>
           </div>
           <div className="row">

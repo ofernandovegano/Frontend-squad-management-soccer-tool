@@ -15,3 +15,25 @@
   margin-bottom: 6vh;
   width: 100%;
 }
+.player-searched {
+  width: 100%;
+  background: linear-gradient(to bottom, $venturus-white, $venturus-gray 120%);
+  border: 4px double $venturus-gray;
+  padding: 2vh;
+  padding-right: 6vh;
+  margin-top: 20px;
+  strong {
+    color: black;
+  }
+}
+.player-searched-name-age {
+  display: flex;
+  justify-content: space-between;
+}
+.player-data {
+  color: $venturus-pink;
+  font-weight: bold;
+}
+.input-search-player {
+  margin-bottom: 30px;
+}
