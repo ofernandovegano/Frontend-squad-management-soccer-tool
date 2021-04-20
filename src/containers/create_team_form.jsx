@@ -82,29 +82,112 @@ class CreateTeamForm extends Component {
                 <option value="5-4-1">5-4-1</option>
               </select>
               <div className='formationField'>
-                <div className="positions"></div>
-                <div className="positions"></div>
-                <div className="positions"></div>
-                <div className="positions"></div>
+                <div className="positions">
+
+                <div className="after-positions">
+                    <div className='plus-player'><div className='plus'>+</div></div>
+                    <div className="player-border">
+                      <div className="player"></div>
+                    </div>
+                </div>
+                <div className="after-positions">
+                    <div className='plus-player'><div className='plus'>+</div></div>
+                    <div className="player-border">
+                      <div className="player"></div>
+                    </div>
+                </div>
+
+                </div>
+
+                <div className="positions">
+
+                <div className="after-positions">
+                    <div className='plus-player'><div className='plus'>+</div></div>
+                    <div className="player-border">
+                      <div className="player"></div>
+                    </div>
+                </div>
+
+                </div>
+
+                <div className="positions">
+
+
+                <div className="after-positions">
+                    <div className='plus-player'><div className='plus'>+</div></div>
+                    <div className="player-border">
+                      <div className="player"></div>
+                    </div>
+                </div>
+                <div className="after-positions">
+                    <div className='plus-player'><div className='plus'>+</div></div>
+                    <div className="player-border">
+                      <div className="player"></div>
+                    </div>
+                </div>
+                <div className="after-positions">
+                    <div className='plus-player'><div className='plus'>+</div></div>
+                    <div className="player-border">
+                      <div className="player"></div>
+                    </div>
+                </div>
+
+                </div>
+
+
+                <div className="positions">
+
+                <div className="after-positions">
+                    <div className='plus-player'><div className='plus'>+</div></div>
+                    <div className="player-border">
+                      <div className="player"></div>
+                    </div>
+                </div>
+                <div className="after-positions">
+                    <div className='plus-player'><div className='plus'>+</div></div>
+                    <div className="player-border">
+                      <div className="player"></div>
+                    </div>
+                </div>
+                <div className="after-positions">
+                    <div className='plus-player'><div className='plus'>+</div></div>
+                    <div className="player-border">
+                      <div className="player"></div>
+                    </div>
+                </div>
+                <div className="after-positions">
+                    <div className='plus-player'><div className='plus'>+</div></div>
+                    <div className="player-border">
+                      <div className="player"></div>
+                    </div>
+                </div>
+
+                </div>
+
+                
+
                 <div className="positions">
                   <div className="after-positions">
-            
-                      <div className='plus-player'><div className='plus'>+</div></div>
-      
-                  <div className="player-border">
-                    <div className="player"></div>
-                  </div>
+                    <div className='plus-player'><div className='plus'>+</div></div>
+                    <div className="player-border">
+                      <div className="player"></div>
+                    </div>
                   </div>
                 </div>
-                {/* <div className='middle-camp-line'><div>
+
+
+                <div className='middle-camp-line'><div>
                   </div></div>
-                <div className="circle-form"></div> */}
+                <div className="circle-form"></div>
               </div>
+
+
+              
             </div>
             <div className="col-6 search-players">
 
               <SearchPlayers />
-
+              
             </div>
           </div>
           <div className="row">
