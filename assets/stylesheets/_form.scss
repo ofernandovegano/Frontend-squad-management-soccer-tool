@@ -54,7 +54,8 @@
   justify-content:space-around;
 }
 .after-positions {
-  display: absolute;
+  display: flex;
+  align-items: center;
 }
 .player-border {
   width: 65px;
