@@ -25,36 +25,36 @@ class CreateTeamForm extends Component {
           <div className="col-6">
             <div className="form-group">
               <label htmlFor="name">Team Name</label>
-              <imput name="name" type="text" placeholder="Juventus F. C."className="form-control" />
+              <input name="name" type="text" placeholder="Juventus F. C."className="form-control" />
             </div>
             <div className="form-group">
               <label htmlFor="description">Description</label>
-              <imput name="description" type="text" placeholder="Cristiano Ronaldo is better than Lionel Messi"className="form-control form-description" />
+              <textarea name="description" type="text" placeholder="Cristiano Ronaldo is better than Lionel Messi" rows='10' className="form-control form-description"></textarea>
             </div>     
           </div>
           <div className="col-6">
             
             <div className="form-group form-right form-check">
               <label htmlFor="website">Team website</label>
-              <imput name="website" type="text" placeholder="www.juventus.com"className="form-control" />
+              <input name="website" type="text" placeholder="www.juventus.com"className="form-control" />
             </div>
             <div className="form-group form-right">
-                <label htmlFor="teamType">Team Type</label>
-                <div className="radio-check">
+              <label htmlFor="teamType">Team Type</label>
+              <div className="radio-check">
 
-                  <div className="form-check">
-                    <input className="form-check-input" type="radio" name="teamType" value='Real' id="radio-real" value="option1" checked />
-                    <label className="form-check-label" for="radio-real">
-                      Real
-                    </label>
-                  </div>
-                  <div className="form-check">
-                    <input className="form-check-input" type="radio" name="teamType" value='Fantasy' id="radio-fantasy" value="option2" />
-                    <label className="form-check-label" for="radio-fantasy">
-                      Fantasy
-                    </label>
-                  </div>
+                <div className="form-check">
+                  <input className="form-check-input" type="radio" name="teamType" value='Real' id="radio-real" value="option1" checked />
+                  <label className="form-check-label" for="radio-real">
+                    Real
+                  </label>
                 </div>
+                <div className="form-check">
+                  <input className="form-check-input" type="radio" name="teamType" value='Fantasy' id="radio-fantasy" value="option2" />
+                  <label className="form-check-label" for="radio-fantasy">
+                    Fantasy
+                  </label>
+                </div>
+              </div>
             </div>
 
 
@@ -62,7 +62,7 @@ class CreateTeamForm extends Component {
               <label htmlFor="tags">Tags</label>
               <input name="tags" type="text"className="form-control form-tags" />
             </div>
-            </div>
+          </div>
         </div>
           <h3 className='sub-header-before-tatics'>CONFIGURE SQUAD</h3>
           <div className="row">
