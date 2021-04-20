@@ -4,6 +4,10 @@
 
 https://squad-management-soccer-tool.herokuapp.com/new
 
+## description
+
+This is the frontend repository that is no more used. THe new repository is [here](https://github.com/ofernandovegano/squad-management-soccer-tool)
+
 ## Usage
 
 ⚠️WORK IN PROGRESS!⚠️ (front-end design done - check it on the link above!)
