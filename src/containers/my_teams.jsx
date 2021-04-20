@@ -13,7 +13,7 @@ class MyTeams extends Component {
       <div className="">
         <div className="h2-headers">
           <h2>My Teams</h2>
-          <Link to='/new'>
+          <Link to='/new' className='add-team-link'>
             <div className="add-team"><div>+</div></div>
           </Link>
         </div>
