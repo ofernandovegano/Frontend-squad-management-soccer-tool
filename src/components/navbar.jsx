@@ -6,10 +6,12 @@ const Navbar = () => {
   return (
     <div className="nav-container">
       <div className='navbar-venturus'>
-          <div className="logo">
-            <img src="/assets/images/venturus-logo.png" alt="Venturus-logo" />
-            <p>Squad Managment Tool</p>
-          </div>
+        <Link to='/' className='logo-link'>
+        <div className="logo">
+          <img src="/assets/images/venturus-logo.png" alt="Venturus-logo" />
+          <p>Squad Managment Tool</p>
+        </div>
+        </Link>
           <div className="logged-in">
             <p className='navbar-name'>
               Fernando Gomes
