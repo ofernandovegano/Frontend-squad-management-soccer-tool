@@ -174,10 +174,15 @@ class CreateTeamForm extends Component {
                     </div>
                   </div>
                 </div>
-                {/* <div className='middle-camp-line'><div>
+
+
+                <div className='middle-camp-line'><div>
                   </div></div>
-                <div className="circle-form"></div> */}
+                <div className="circle-form"></div>
               </div>
+
+
+              
             </div>
             <div className="col-6 search-players">
 
